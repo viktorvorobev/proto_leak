@@ -1,4 +1,3 @@
-import objgraph
 import psutil
 import os
 from foo_pb2 import Foo
