@@ -1,0 +1,8 @@
+syntax = "proto3";
+package com.mycorp.mynamespace;
+
+message value_test_topic {
+  int32 myField1 = 1;
+  double myField2 = 2;
+  string myField3 = 3;
+}
