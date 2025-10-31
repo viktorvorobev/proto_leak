@@ -5,7 +5,7 @@ Uses [uv](https://docs.astral.sh/uv/) to work.
 To python messages from .proto files, run:
 
 ```bash
-python -m grpc_tools.protoc --python_out=. --grpc_python_out=. --proto_path=. schema.proto
+uv run -m grpc_tools.protoc --python_out=. --grpc_python_out=. --proto_path=. schema.proto
 ```
 
 To run the scripts, use:
